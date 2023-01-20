@@ -4,10 +4,10 @@ Team III - website project
 Contributors: Viktória Szabó, Shammi Ballewala, Fahimeh Gholami, Joonas Koskinen
 
 Insturctions: 
-  1. Clone from GitHub Desktop this repository and put create a folder for it. 
+  1. Clone from GitHub Desktop this repository and create a folder for it. 
   2. Open the folder in e.g. Visual Studio Code (or any other). 
   3. Start coding! 🧑‍💻👩‍💻
-  4. When you have completed a milestone/step with your code remeber to push your code via GitHub Desktop and commit to main.
+  4. When you have completed a milestone/step with your code remeber to push your code from time to time via GitHub Desktop and commit to main.
   5. Add a summerized description to your commit so that we know what you did.
 
 Team milestones to target:
