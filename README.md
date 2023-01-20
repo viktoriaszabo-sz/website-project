@@ -1,7 +1,7 @@
 # website-project
 Team III - website project
 
-Contirbutors: Viktória Szabó, Shammi Ballewala, Fahimeh Gholami, Joonas Koskinen
+Contributors: Viktória Szabó, Shammi Ballewala, Fahimeh Gholami, Joonas Koskinen
 
 Insturctions: 
   1. Clone from GitHub Desktop this repository and put create a folder for it. 
