@@ -94,3 +94,75 @@ a {
 .copy {
   font-size: 15px;
 }
+/* Styles for carousel */
+#carousel .carousel-item {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+#carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+#carousel .carousel-item .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+#carousel .carousel-item h2 {
+  font-size: 60px;
+  color: #eae3d2;
+  margin: 0 0 10px;
+  opacity: 0;
+}
+#carousel .carousel-item p {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  opacity: 0;
+}
+#carousel .carousel-item.active h2 {
+  animation: fadeInLeft 0.5s ease forwards;
+}
+#carousel .carousel-item.active p {
+  animation: fadeInRight 0.5s ease forwards;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* Media placement needs to be figured out once all the code is ready */
+@media (max-width: 767px) {
+  #carousel .carousel-item h2 {
+    font-size: 45px;
+  }
+  #carousel .carousel-item p {
+    font-size: 20px;
+  }
+}
