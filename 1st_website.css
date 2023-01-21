@@ -1,97 +1,96 @@
 body {
-    background-color: rgb(36,55,99,255);
+  background-color: rgb(36, 55, 99, 255);
 }
 .navbar-custom {
-    background-color: #ff6e31;
+  background-color: #ff6e31;
 }
 .bottom-left {
-    position: absolute;
-    bottom: 20px;
-    left: 40px;
-    font-size: 70px;
-    color: white; 
-  }
-p{
-    text-align: justify;
-    text-justify: inter-word;
-    color: white; 
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-size: 70px;
+  color: white;
 }
-h3{
-    color: white; 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
 }
-.y-h{
-    text-align: center; 
-    display: block; 
+h3 {
+  color: white;
 }
-.logo{
-    text-align: center;
+.y-h {
+  text-align: center;
+  display: block;
 }
-.dot{
-    color: rgb(36,55,99,255);
+.logo {
+  text-align: center;
 }
-.dot2{
-    color:  #ff6e31;
+.dot2 {
+  color: #ff6e31;
 }
-.hockey-team:hover{
-    opacity: 0.5;
+.hockey-team:hover {
+  opacity: 0.5;
 }
-.birthday:hover{
-opacity: 0.5;
+.birthday:hover {
+  opacity: 0.5;
 }
-.hamk:hover{
-opacity: 0.5;
+.hamk:hover {
+  opacity: 0.5;
 }
-.first, .second, .third{
-    width: 400px; 
-    height: auto;
+.first,
+.second,
+.third {
+  width: 400px;
+  height: auto;
 }
 
 .first {
-    opacity: 0.4;
-  }
-  
-  .first:hover {
-    opacity: 1.0;
-  }
-.text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-    background: rgb(36,55,99,255, .5)
+  opacity: 0.4;
 }
-.col-md-4{
-    color: white; 
+
+.first:hover {
+  opacity: 1;
 }
-.container{
-    color: #ff6e31; 
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  background: rgb(36, 55, 99, 255, 0.5);
 }
-a{
-    color: white;
+.col-md-4 {
+  color: white;
 }
-.links{
-    text-align: center; 
-    display:block;
-    color: white; 
+.container {
+  color: #ff6e31;
 }
-.reasons{
-    border-radius: 25px;
-    background: #ff6e31;
-    padding: 35px;
-    width: 200px;
-    height: 150px;
-    color: white; 
+a {
+  color: white;
 }
-.orange{
-    color: #ff6e31;
+.links {
+  text-align: center;
+  display: block;
+  color: white;
 }
-.background-color{
-    background-color: #ff6e31;
-    text-align: left; 
-    display: block; 
+.reasons {
+  border-radius: 25px;
+  background: #ff6e31;
+  padding: 35px;
+  width: 200px;
+  height: 150px;
+  color: white;
 }
-#hameenlinna-logo{
-    height: auto;
+.orange {
+  color: #ff6e31;
+}
+.background-color {
+  background-color: #ff6e31;
+  text-align: left;
+  display: block;
+}
+#hameenlinna-logo {
+  height: auto;
   max-width: 50%;
 }
-.copy{
-    font-size: 15px;
+.copy {
+  font-size: 15px;
 }
