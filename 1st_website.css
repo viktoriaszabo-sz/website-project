@@ -1,10 +1,8 @@
-*{
-  background-color: #243763;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 body {
   background-color: rgb(36, 55, 99, 255);
@@ -51,25 +49,27 @@ a {
 
 /*styles for "why hämeenlinna" section*/
 
-.why{
+.why {
   margin-left: 20%;
   margin-right: 20%;
 }
-h3{
-  color: white; 
+h3 {
+  color: white;
 }
-.w-h{ /*why-hämeenlinna h3*/
+.w-h {
+  /*why-hämeenlinna h3*/
   text-align: center;
   display: block;
   color: white;
   font-size: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
 }
 .reasons {
   display: inline-block;
-  border-style: outset; 
-  border-color: rgb(120,120,120);
+  border-style: outset;
+  border-color: rgb(120, 120, 120);
   border-radius: 25px;
   background: #ff6e31;
   padding: 30px;
@@ -77,8 +77,9 @@ h3{
   height: 150px;
   color: black;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 650; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 650;
   font-size: 17px;
 }
 
@@ -168,7 +169,7 @@ h3{
   }
 }
 /*news Part*/
-.news{
+.news {
   padding: 40px;
   font-size: 62.5%;
   background-color: #243763;
@@ -177,80 +178,77 @@ h3{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-
 }
-.grid{
+.grid {
   display: grid;
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: start;
 }
 
-.grid-item{
+.grid-item {
   background-color: #fff;
   border-radius: 0.4 rem;
   overflow: hidden;
-  box-shadow: 0 3rem 6rem #FF6E31;
+  box-shadow: 0 3rem 6rem #ff6e31;
   cursor: pointer;
   transition: 0.2s;
 }
 
-.grid-item:hover{
+.grid-item:hover {
   transform: translateY(-0.5%);
   box-shadow: rgba(0, 0, 0, 0.5);
 }
 
-.card-image{
+.card-image {
   display: block;
   width: 100%;
   height: 20rem;
   object-fit: cover;
 }
-.card-content{
+.card-content {
   padding: 3rem;
 }
 
-.card-header{
+.card-header {
   font-size: 3rem;
   font-weight: 500;
-  color: #E1D7C6;
+  color: #e1d7c6;
   margin-bottom: 1.5rem;
 }
-  .card-text{
-      font-size: 1.6rem;
-      letter-spacing: 0.1rem;
-      line-height: 1.7;
-      color: #eae3d2;
-      margin-bottom: 2.5rem;
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #eae3d2;
+  margin-bottom: 2.5rem;
+}
 
-  }
-   
-  .card-btn{
-      display: block;
-      width: 100%;
-      padding: 1.5rem;
-      font-size: 2rem;
-      text-align: center;
-      color: #FF6E31;
-      background-color: #d8e0fd;
-      border: none;
-      border-radius: 0,4rem;
-      transition: 0.2s;
-      cursor: pointer;
-      letter-spacing: 0.1rem;
-  }
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #ff6e31;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0, 4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
 
-  .card.btn span{
-      margin-left: 1rem;
-      transition: 0.2s;
-  }
-   .card-btn:hover,
-    .card-btn:active{
-      background-color: #E1D7C6;
-   }
-   .card-btn:hover span, 
-   .card-btn:active span{
-
-      margin-left: 1.5rem;
-   }
-   /*end of news part*/
+.card.btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.card-btn:hover,
+.card-btn:active {
+  background-color: #e1d7c6;
+}
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+/*end of news part*/
