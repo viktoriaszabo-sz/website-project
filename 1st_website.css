@@ -17,6 +17,7 @@ body {
   font-size: 70px;
   color: white;
 }
+/* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -257,59 +258,4 @@ h3 {
 #footer {
   background-color: #ff6e31;
   padding: 40px 0 0 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
