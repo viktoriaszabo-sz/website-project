@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: rgb(36, 55, 99, 255);
 }
@@ -17,6 +16,7 @@ body {
   font-size: 70px;
   color: white;
 }
+/* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -135,16 +135,18 @@ h3 {
   opacity: 0;
 }
 #carousel .carousel-item.active h2 {
-  animation: fadeInLeft 0.5s ease forwards;
+  animation: fadeInLeft ease forwards;
+  animation-duration: 1.5s;
 }
 #carousel .carousel-item.active p {
-  animation: fadeInRight 0.5s ease forwards;
+  animation: fadeInRight ease forwards;
+  animation-duration: 1.5s;
 }
 
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(-100px);
   }
   100% {
     opacity: 1;
@@ -154,7 +156,7 @@ h3 {
 @keyframes fadeInRight {
   0% {
     opacity: 0;
-    transform: translateX(30px);
+    transform: translateX(100px);
   }
   100% {
     opacity: 1;
@@ -257,59 +259,4 @@ h3 {
 #footer {
   background-color: #ff6e31;
   padding: 40px 0 0 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
