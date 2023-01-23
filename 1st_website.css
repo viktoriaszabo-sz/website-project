@@ -178,8 +178,8 @@ h3 {
 .grid{
   display: grid;
   grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: start;
+  grid-template-columns: repeat(auto-fit,minmax(10rem, 1fr));
+  align-items: center;
 }
 
 .grid-item{
@@ -228,7 +228,7 @@ h3 {
       display: block;
       width: 100%;
       padding: 1.5rem;
-      font-size: 2rem;
+      font-size: 1rem;
       text-align: center;
       color: #E1D7C6;
       background-color: #ff6e31;
@@ -254,6 +254,7 @@ h3 {
       margin-left: 1.5rem;
    }
    .news{
+
       box-sizing: border-box;
       font-size: 62.5%;
       padding: 10px;
@@ -262,7 +263,7 @@ h3 {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      min-height: 240vh;
       width: fit-content;
       background-color: #243763;
       font-family: "Poppins", sans-serif;    
