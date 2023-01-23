@@ -124,11 +124,13 @@ h3 {
   font-size: 60px;
   color: #eae3d2;
   margin: 0 0 10px;
+  padding-top: 100px !important;
   opacity: 0;
 }
 #carousel .carousel-item p {
   font-size: 20px;
   margin: 0;
+  padding-top: 10px;
   color: #fff;
   opacity: 0;
 }
