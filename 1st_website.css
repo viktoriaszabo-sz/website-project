@@ -14,10 +14,8 @@ body {
   bottom: 20px;
   left: 40px;
   font-size: 70px;
-  color: white; 
-  filter: greyscale(100%);
+  color: white;
 }
-
 /* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
@@ -192,18 +190,14 @@ h3 {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  align-items: center;
-  height: 60vh;
 }
 
 .grid-item {
   background-color: #243763;
   border-radius: 0.4 rem;
-  overflow: hidden;
   box-shadow: 0 3rem 6rem #ff9d72;
   cursor: pointer;
   transition: 0.2s;
-  height: 100vh;
 }
 
 .grid-item:hover {
@@ -271,8 +265,8 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  min-height: 200vh;
+
+  min-height: 120vh;
   width: fit-content;
   background-color: #243763;
   font-family: "Poppins", sans-serif;
