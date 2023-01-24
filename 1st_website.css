@@ -248,7 +248,7 @@ h3 {
   letter-spacing: 0.1rem;
 }
 
-.card.btn span {
+.card-btn span {
   margin-left: 1rem;
   transition: 0.2s;
 }
@@ -275,6 +275,7 @@ h3 {
   background-color: #243763;
   font-family: "Poppins", sans-serif;
 }
+
 /*end of news part*/
 #footer {
   background-color: #ff6e31;
