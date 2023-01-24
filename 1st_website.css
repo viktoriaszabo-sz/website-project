@@ -60,125 +60,6 @@ a {
 .copy {
   font-size: 15px;
 }
-/* Styles for carousel */
-#carousel .carousel-item {
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: -1;
-}
-#carousel .carousel-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-#carousel .carousel-item .container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, 50%);
-  text-align: center;
-}
-#carousel .carousel-item h2 {
-  font-size: 60px;
-  color: #eae3d2;
-  margin-top: 5%;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(215, 96, 5, 0.2),
-    rgba(215, 96, 5, 0.7) 95%,
-    rgba(215, 96, 5, 0.2)
-  );
-}
-#carousel .carousel-item p {
-  font-size: 20px;
-  color: #fff;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(215, 96, 5, 0.2),
-    rgba(215, 96, 5, 0.7) 95%,
-    rgba(215, 96, 5, 0.1)
-  );
-}
-#carousel .carousel-item.active h2 {
-  animation: fadeInLeft ease forwards;
-  animation-duration: 1.5s;
-}
-#carousel .carousel-item.active p {
-  animation: fadeInRight ease forwards;
-  animation-duration: 1.5s;
-}
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
-
-/*styles for "why hämeenlinna" section*/
-
-.why {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-h3 {
-  color: white;
-}
-.w-h {
-  /*why-hämeenlinna h3*/
-  text-align: center;
-  display: block;
-  color: white;
-  font-size: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
-}
-.reasons {
-  display: inline-block;
-  border-style: outset;
-  border-color: rgb(120, 120, 120);
-  border-radius: 25px;
-  background: #ff6e31;
-  padding: 30px;
-  width: 250px;
-  height: 150px;
-  color: black;
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 650;
-  font-size: 17px;
-}
-.reasons:hover {
-  background-color: #ffbd31;
-}
-
-/*end of "why hämeenlinna" section*/
-
-
 /*news Part*/
 
 .grid {
@@ -272,6 +153,124 @@ h3 {
 }
 
 /*end of news part*/
+
+
+/* Styles for carousel */
+#carousel .carousel-item {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+#carousel .carousel-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+#carousel .carousel-item .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+}
+#carousel .carousel-item h2 {
+  font-size: 60px;
+  color: #eae3d2;
+  margin-top: 5%;
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(215, 96, 5, 0.2),
+    rgba(215, 96, 5, 0.7) 95%,
+    rgba(215, 96, 5, 0.2)
+  );
+}
+#carousel .carousel-item p {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 1em 0 1em 0;
+  background-image: linear-gradient(
+    -100deg,
+    rgba(215, 96, 5, 0.2),
+    rgba(215, 96, 5, 0.7) 95%,
+    rgba(215, 96, 5, 0.1)
+  );
+}
+#carousel .carousel-item.active h2 {
+  animation: fadeInLeft ease forwards;
+  animation-duration: 1.5s;
+}
+#carousel .carousel-item.active p {
+  animation: fadeInRight ease forwards;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/*styles for "why hämeenlinna" section*/
+
+.why {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h3 {
+  color: white;
+}
+.w-h {
+  /*why-hämeenlinna h3*/
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.reasons {
+  display: inline-block;
+  border-style: outset;
+  border-color: rgb(120, 120, 120);
+  border-radius: 25px;
+  background: #ff6e31;
+  padding: 30px;
+  width: 250px;
+  height: 150px;
+  color: black;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 650;
+  font-size: 17px;
+}
+.reasons:hover {
+  background-color: #ffbd31;
+}
+
+/*end of "why hämeenlinna" section*/
 
 /* Media placement needs to be figured out once all the code is ready */
 @media (max-width: 767px) {
