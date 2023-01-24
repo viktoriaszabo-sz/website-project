@@ -9,15 +9,6 @@ body {
 .navbar-custom {
   background-color: #ff6e31;
 }
-.bottom-left {
-  position: absolute;
-  bottom: 20px;
-  left: 40px;
-  font-size: 70px;
-  color: white;
-  filter: greyscale(100%);
-}
-
 /* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
@@ -271,16 +262,6 @@ h3 {
 
 /*end of "why hämeenlinna" section*/
 
-/* Media placement needs to be figured out once all the code is ready */
-@media (max-width: 767px) {
-  #carousel .carousel-item h2 {
-    font-size: 45px;
-  }
-  #carousel .carousel-item p {
-    font-size: 20px;
-  }
-}
-
 #footer {
   background-color: #ff6e31;
   padding: 30px 0 0 0;
@@ -308,4 +289,28 @@ h3 {
 }
 #footer a {
   text-decoration: none;
+}
+
+/* Media placement needs to be figured out once all the code is ready */
+@media (max-width: 767px) {
+  #carousel .carousel-item h2 {
+    font-size: 45px;
+  }
+  #carousel .carousel-item p {
+    font-size: 20px;
+  }
+  #footer p, h3{
+    text-align: center; 
+  }
+  #footer .hameenlinna-logo { 
+    display: block; 
+    margin: 0 auto; 
+  }
+  #navbarNav.list {
+    grid-auto-flow: row;
+    list-style-type: none;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+  }
 }
