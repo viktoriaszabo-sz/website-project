@@ -191,6 +191,7 @@ h3 {
   grid-gap: 6rem;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   align-items: center;
+  height: 60vh;
 }
 
 .grid-item {
@@ -200,6 +201,7 @@ h3 {
   box-shadow: 0 3rem 6rem #ff9d72;
   cursor: pointer;
   transition: 0.2s;
+  height: 130vh;
 }
 
 .grid-item:hover {
@@ -219,13 +221,12 @@ h3 {
 }
 
 .card-header {
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 22px;
   color: #e1d7c6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 10px;
 }
 .card-text {
-  font-size: 1.6rem;
+  font-size: 18px;
   letter-spacing: 0.3px;
   line-height: 1.7;
   color: #eae3d2;
@@ -235,8 +236,8 @@ h3 {
 .card-btn {
   display: block;
   width: 100%;
-  padding: 1.5rem;
-  font-size: 1.5rem;
+  padding: 10px;
+  font-size: 18px;
   text-align: center;
   color: #e1d7c6;
   background-color: #ff6e31;
