@@ -9,8 +9,9 @@ body {
 .navbar{
   background-color: #ff6e31 !important;
 }
-.navbar ul{
-justify-content: end; 
+#navbarSupportedContent ul{
+  margin-left: auto;
+  margin-right: 0 !important;
 }
 .bottom-left {
   position: absolute;
@@ -296,11 +297,8 @@ h3 {
     display: block; 
     margin: 0 auto; 
   }
-  #navbarNav.list {
-    grid-auto-flow: row;
-    list-style-type: none;
-    row-gap: 40px;
-    column-gap: 0;
-    justify-items: center;
+  #navbarSupportedContent li{
+    margin-left: auto;
+    margin-right: 0 !important;
   }
 }
