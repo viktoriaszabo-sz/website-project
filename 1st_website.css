@@ -10,7 +10,7 @@ body {
   background-color: #ff6e31 !important;
 }
 .navbar ul{
-position: right; 
+justify-content: end; 
 }
 .bottom-left {
   position: absolute;
@@ -28,10 +28,6 @@ p {
 .logo {
   text-align: center;
 }
-.dot2 {
-  color: #ff6e31;
-}
-
 .text {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
