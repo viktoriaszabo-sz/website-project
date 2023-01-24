@@ -270,7 +270,7 @@ h3 {
   background-color: #ff6e31;
   padding: 30px 0 0 0;
 }
-.shortcuts a:link{
+.shortcuts a{
   text-align: center;
   display: block;
   color: white; 
@@ -281,6 +281,9 @@ h3 {
 .social {
   display: grid;
   justify-content: center;
+}
+#footer a{
+  background-color: #ff6e31;
 }
 /* Media placement needs to be figured out once all the code is ready */
 @media (max-width: 767px) {
