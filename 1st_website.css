@@ -278,27 +278,15 @@ h3 {
   background-color: #ff6e31;
   padding: 30px 0 0 0;
 }
+.shortcuts a:link{
+  text-align: center;
+  display: block;
+  color: white; 
+}
 .hameenlinna-logo {
   float: left;
 }
 .social {
-  text-align: center;
-  display: block;
   display: grid;
   justify-content: center;
-  align-content: center;
-}
-.social > a {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  border: 1px solid #ccc;
-  margin-left: 10px;
-  margin-top: 22px;
-  color: inherit;
-  opacity: 0.75;
 }
