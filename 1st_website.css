@@ -183,6 +183,20 @@ h3 {
   #carousel .carousel-item p {
     font-size: 20px;
   }
+  #footer p, h3{
+    text-align: center; 
+  }
+  #footer .hameenlinna-logo { 
+    display: block; 
+    margin: 0 auto; 
+  }
+  #navbarNav.list {
+    grid-auto-flow: row;
+    list-style-type: none;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+  }
 }
 /*news Part*/
 
