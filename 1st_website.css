@@ -49,47 +49,6 @@ a {
   color: white;
 }
 
-/*styles for "why hämeenlinna" section*/
-
-.why {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-h3 {
-  color: white;
-}
-.w-h {
-  /*why-hämeenlinna h3*/
-  text-align: center;
-  display: block;
-  color: white;
-  font-size: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
-}
-.reasons {
-  display: inline-block;
-  border-style: outset;
-  border-color: rgb(120, 120, 120);
-  border-radius: 25px;
-  background: #ff6e31;
-  padding: 30px;
-  width: 250px;
-  height: 150px;
-  color: black;
-  text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 650;
-  font-size: 17px;
-}
-.reasons:hover {
-  background-color: #ffbd31;
-}
-
-/*end of "why hämeenlinna" section*/
-
 .orange {
   color: #ff6e31;
 }
@@ -177,15 +136,49 @@ h3 {
     transform: translateX(0px);
   }
 }
-/* Media placement needs to be figured out once all the code is ready */
-@media (max-width: 767px) {
-  #carousel .carousel-item h2 {
-    font-size: 45px;
-  }
-  #carousel .carousel-item p {
-    font-size: 20px;
-  }
+
+/*styles for "why hämeenlinna" section*/
+
+.why {
+  margin-left: 20%;
+  margin-right: 20%;
 }
+h3 {
+  color: white;
+}
+.w-h {
+  /*why-hämeenlinna h3*/
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+.reasons {
+  display: inline-block;
+  border-style: outset;
+  border-color: rgb(120, 120, 120);
+  border-radius: 25px;
+  background: #ff6e31;
+  padding: 30px;
+  width: 250px;
+  height: 150px;
+  color: black;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 650;
+  font-size: 17px;
+}
+.reasons:hover {
+  background-color: #ffbd31;
+}
+
+/*end of "why hämeenlinna" section*/
+
+
 /*news Part*/
 
 .grid {
@@ -278,6 +271,18 @@ h3 {
   font-family: "Poppins", sans-serif;
 }
 /*end of news part*/
+
+/* Media placement needs to be figured out once all the code is ready */
+@media (max-width: 767px) {
+  #carousel .carousel-item h2 {
+    font-size: 45px;
+  }
+  #carousel .carousel-item p {
+    font-size: 20px;
+  }
+}
+
+
 #footer {
   background-color: #ff6e31;
   padding: 30px 0 0 0;
@@ -288,9 +293,15 @@ h3 {
   color: white; 
 }
 .hameenlinna-logo {
-  float: left;
+  display: inline-block; 
+  margin: 0 0 40px 0;
 }
 .social {
   display: grid;
   justify-content: center;
+}
+.shortcuts{
+  display: grid;
+  justify-content: center;
+  text-align: center; 
 }
