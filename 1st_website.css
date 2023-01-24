@@ -294,7 +294,7 @@ h3 {
 }
 .hameenlinna-logo {
   display: inline-block; 
-  margin: 0 0 40px 0;
+  padding-bottom: 30px; 
 }
 .social {
   display: grid;
@@ -304,4 +304,7 @@ h3 {
   display: grid;
   justify-content: center;
   text-align: center; 
+}
+#footer p{
+  text-align: inherit; 
 }
