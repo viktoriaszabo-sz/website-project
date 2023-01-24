@@ -14,8 +14,10 @@ body {
   bottom: 20px;
   left: 40px;
   font-size: 70px;
-  color: white;
+  color: white; 
+  filter: greyscale(100%);
 }
+
 /* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
