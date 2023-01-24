@@ -6,8 +6,11 @@
 body {
   background-color: rgb(36, 55, 99, 255);
 }
-.navbar-custom {
-  background-color: #ff6e31;
+.navbar{
+  background-color: #ff6e31 !important;
+}
+.navbar ul{
+position: right; 
 }
 .bottom-left {
   position: absolute;
@@ -275,8 +278,8 @@ h3 {
   display: block;
   color: white; 
 }
-.hameenlinna-logo {
-  float: left;
+.hameenlinna-logo{
+  padding-bottom: 30px; 
 }
 .social {
   display: grid;
