@@ -288,10 +288,10 @@ h3 {
 /* Media placement needs to be figured out once all the code is ready */
 @media (max-width: 767px) {
   #carousel .carousel-item h2 {
-    font-size: 45px;
+    font-size: 30px;
   }
   #carousel .carousel-item p {
-    font-size: 20px;
+    font-size: 15px;
   }
   #footer p, h3{
     text-align: center; 
