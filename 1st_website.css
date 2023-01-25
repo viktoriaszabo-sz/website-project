@@ -228,13 +228,15 @@ h3 {
   justify-content: center;
 }
 
+.cardbg:hover{
+  background-color: #ffbd31;
+}
+
 
 .linkCap {
   color: #000000;
 }
-.cardbg:hover{
-  background-color: #ffbd31;
-}
+
 .linkCap{
   color: #000000
 }
