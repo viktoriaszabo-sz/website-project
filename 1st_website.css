@@ -215,6 +215,28 @@ h3 {
 #footer a {
   background-color: #ff6e31;
 }
+/* Styles for Links section */
+.deco{
+  background-color: #ff6e31;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cardbg{
+  background-color: #ff6e31;
+}
+
+.linkCap{
+  color: #000000
+}
+
+a:hover{
+  text-decoration:underline ;
+  color: purple;
+}
+
+/* End the Styles for Links section */
+
 /* Media placement needs to be figured out once all the code is ready */
 @media (max-width: 767px) {
   #carousel .carousel-item h2 {
