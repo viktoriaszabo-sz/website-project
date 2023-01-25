@@ -6,10 +6,10 @@
 body {
   background-color: rgb(36, 55, 99, 255);
 }
-.navbar{
+.navbar {
   background-color: #ff6e31 !important;
 }
-#navbarSupportedContent ul{
+#navbarSupportedContent ul {
   margin-left: auto;
   margin-right: 0 !important;
 }
@@ -48,95 +48,23 @@ a {
 }
 
 /*news Part*/
-
-.grid {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+.btn-outline-warning a {
+  color: #243763;
 }
-
-.grid-item {
-  background-color: #243763;
-  border-radius: 0.4 rem;
-  box-shadow: 0 3rem 6rem #ff9d72;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.grid-item:hover {
-  transform: translateY(-0.5%);
-  box-shadow: rgba(0, 0, 0, 0.5);
-}
-
-.card-img{
-  display: block;
-  width: 100%;
-  height: 20rem;
-  object-fit: cover;
-}
-.card-content {
-  padding: 3rem;
-  background-color: #243763;
-}
-
-.card-header {
-  font-size: 22px;
-  color: #e1d7c6;
-  margin-bottom: 10px;
+.btn-outline-warning span {
+  color: #243763;
 }
 .card-text {
-  font-size: 18px;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
-  color: #eae3d2;
-  margin-bottom: 2.5rem;
+  color: #243763;
+}
+.card-title {
+  color: #243763;
 }
 
-.card-btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  text-align: center;
-  color: #e1d7c6;
+.card {
   background-color: #ff6e31;
-  border: none;
-  border-radius: 0, 4rem;
-  transition: 0.2s;
-  cursor: pointer;
-  letter-spacing: 0.1rem;
 }
-
-.card-btn span {
-  margin-left: 1rem;
-  transition: 0.2s;
-}
-.card-btn:hover,
-.card-btn:active {
-  background-color: #9d370b;
-}
-.card-btn:hover span,
-.card-btn:active span {
-  margin-left: 1.5rem;
-}
-#news {
-  padding-top: 20px;
-  box-sizing: border-box;
-  font-size: 62.5%;
-  padding: 15px;
-  margin: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  min-height: 120vh;
-  width: fit-content;
-  background-color: #243763;
-  font-family: "Poppins", sans-serif;
-}
-
 /*end of news part*/
-
 
 /* Styles for carousel */
 #carousel .carousel-item {
@@ -272,19 +200,19 @@ h3 {
   background-color: #ff6e31;
   padding: 30px 0 0 0;
 }
-.shortcuts a{
+.shortcuts a {
   text-align: center;
   display: block;
-  color: white; 
+  color: white;
 }
-.hameenlinna-logo{
-  padding-bottom: 30px; 
+.hameenlinna-logo {
+  padding-bottom: 30px;
 }
 .social {
   display: grid;
   justify-content: center;
 }
-#footer a{
+#footer a {
   background-color: #ff6e31;
 }
 /* Media placement needs to be figured out once all the code is ready */
@@ -295,14 +223,15 @@ h3 {
   #carousel .carousel-item p {
     font-size: 15px;
   }
-  #footer p, h3{
-    text-align: center; 
+  #footer p,
+  h3 {
+    text-align: center;
   }
-  #footer .hameenlinna-logo { 
-    display: block; 
-    margin: 0 auto; 
+  #footer .hameenlinna-logo {
+    display: block;
+    margin: 0 auto;
   }
-  #navbarSupportedContent li{
+  #navbarSupportedContent li {
     margin-left: auto;
     margin-right: 0 !important;
   }
