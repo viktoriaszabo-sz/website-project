@@ -216,6 +216,8 @@ h3 {
   background-color: #ff6e31;
 }
 /* Styles for Links section */
+
+
 .deco {
   background-color: #ff6e31;
   color: #000000;
@@ -224,8 +226,19 @@ h3 {
 
 .cardbg {
   background-color: #ff6e31;
+  justify-content: center;
 }
 
+
+.linkCap {
+  color: #000000;
+}
+.cardbg:hover{
+  background-color: #ffbd31;
+}
+.linkCap{
+  color: #000000
+}
 .linkCap {
   color: #000000;
 }
@@ -235,8 +248,12 @@ a:hover {
   color: purple;
 }
 
+.cardbg{
+  background-color:#ffbd31;
+}
 .cardHeight {
   height: 130px;
+
 }
 
 /* End the Styles for Links section */
