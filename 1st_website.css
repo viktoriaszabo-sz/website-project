@@ -223,12 +223,12 @@ h3 {
   text-decoration: none;
 }
 
-.cardbg {
+.bgcard {
   background-color: #ff6e31;
   justify-content: center;
 }
 
-.cardbg:hover{
+.bgcard:hover{
   background-color: #ffbd31;
 }
 
