@@ -235,6 +235,10 @@ a:hover{
   color: purple;
 }
 
+.cardHeight{
+  height: 130px;
+}
+
 /* End the Styles for Links section */
 
 /* Media placement needs to be figured out once all the code is ready */
