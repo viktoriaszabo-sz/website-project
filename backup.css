@@ -20,7 +20,6 @@ body {
   font-size: 70px;
   color: white;
 }
-/* Remember to refer this <p> to a parent class/ID */
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -48,6 +47,12 @@ a {
 }
 
 /*news Part*/
+
+#news {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .btn-outline-warning a {
   color: #243763;
 }
@@ -120,6 +125,11 @@ a {
 #carousel .carousel-item.active p {
   animation: fadeInRight ease forwards;
   animation-duration: 1.5s;
+}
+#carousel .btn,
+.btn-light {
+  background-color: #eae3d2 !important;
+  min-width: 100px;
 }
 
 @keyframes fadeInLeft {
@@ -221,7 +231,6 @@ h3 {
   color: #000000;
   text-decoration: none;
 }
-
 .bgcard {
   background-color: #ff6e31;
   justify-content: center;
@@ -230,7 +239,6 @@ h3 {
 .bgcard:hover {
   background-color: #ffbd31;
 }
-
 .linkCap {
   color: #000000;
 }
@@ -250,9 +258,6 @@ a:hover {
 .cardbg {
   background-color: #ffbd31;
 }
-.cardHeight {
-  height: 130px;
-}
 
 /* End the Styles for Links section */
 
@@ -263,6 +268,9 @@ a:hover {
   }
   #carousel .carousel-item p {
     font-size: 15px;
+  }
+  #news {
+    margin-top: 0;
   }
   #footer p,
   h3 {
