@@ -125,6 +125,11 @@ a {
 #carousel .carousel-item.active p {
   animation: fadeInRight ease forwards;
   animation-duration: 1.5s;
+
+}
+#carousel .btn , .btn-light {
+  background-color: #eae3d2 !important;
+  min-width: 100px;
 }
 
 @keyframes fadeInLeft {
