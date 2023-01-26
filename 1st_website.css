@@ -220,7 +220,6 @@ h3 {
   color: #000000;
   text-decoration: none;
 }
-
 .bgcard {
   background-color: #ff6e31;
   justify-content: center;
@@ -229,7 +228,6 @@ h3 {
 .bgcard:hover {
   background-color: #ffbd31;
 }
-
 .linkCap {
   color: #000000;
 }
@@ -249,6 +247,7 @@ a:hover {
 .cardbg {
   background-color: #ffbd31;
 }
+
 
 
 /* End the Styles for Links section */
